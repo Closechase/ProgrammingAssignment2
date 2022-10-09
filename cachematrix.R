@@ -32,7 +32,7 @@ makeCacheMatrix <- function( x = numeric()){  # input is data object
 a<- makeCacheMatrix(matrix(c(-3,4,2,5), nrow =2, byrow = TRUE))
 
 #implementing the functions
-#outputs have been table in the Output.md file in the repo
+#outputs have been table in the Output.md file in this repo
 print(a$get())
 print(a$getinverse())
 print(cacheSolve(a))
